@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               昆仑小站
+tagline:             夜月昆仑的知识仓库
+url:                 http://yeyuekunlun.github.io
 paginate:            1
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              夜月昆仑
+  url:               http://www.jiashiwei.tech
+  email:             yeyuekunlun@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/yeyuekunlun/poole
 
 # Gems
 gems:
