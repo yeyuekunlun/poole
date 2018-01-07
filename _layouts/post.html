@@ -8,6 +8,10 @@ layout: default
   {{ content }}
 </article>
 
+{% if site.intensedebate_comments %}
+      {% include intensedebate-comments.html %}
+{% endif %}
+
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Related posts</h3>
@@ -23,3 +27,5 @@ layout: default
   </ul>
 </aside>
 {% endif %}
+
+
