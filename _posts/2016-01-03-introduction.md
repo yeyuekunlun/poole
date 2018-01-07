@@ -1,41 +1,14 @@
 ---
 layout: post
-title: Introduction
+title: 静雅思听音频信息提取工具
 ---
+>静雅思听是一家致力于传播知识和智慧的图书音频制作与提供网站，同时也是国内领先的中文播客（Podcast）。2007年4月创立于北京。静雅思听的使命是让人们最便捷地获取知识，更加智慧地生活。静雅思听的核心价值观是“智慧是获得幸福的最大能力”。
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+
+数月前写的静雅思听脚本托管到Github啦。虽然这个程序比较简单，也有很多地方不规范，比如参数判断直接使用了sys,而没有使用OptionParser，又比如可以不使用eyed3等等，但这个程序是我的第一个有用的python小程序。
+
+附上链接，同时也请大家多多指教，非常感谢。
+
+[静雅思听音频提取工具](https://github.com/yeyuekunlun/JustingAudioInfoExtract)
 
 -----
-
-Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
-
-There are currently three themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-* [Enfield](http://enfield.getpoole.com)
-
-Learn more and contribute on [GitHub]({{ site.github.repo }}).
-
-### What's included
-
-Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:
-
-* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404.html), [RSS feed]({{ site.baseurl }}/atom.xml), posts, and [example page]({{ site.baseurl }}/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Jekyll's built-in support for Rouge
-
-Additional features are available in individual themes.
-
-### Browser support
-
-Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
-
-### Download
-
-These themes are developed on and hosted with GitHub. Head to the [GitHub repository]({{ site.github.repo }}) for downloads, bug reports, and features requests.
-
-Thanks!
