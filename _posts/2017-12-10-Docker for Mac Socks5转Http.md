@@ -33,7 +33,7 @@ Or, if you don't want/need a background service you can just run:
 	
 ##### 4.用你喜爱的方式启动privoxy
 
-	brew service start privoxy
+	brew services start privoxy
 
 ##### 5.查看是否启动成功
 
